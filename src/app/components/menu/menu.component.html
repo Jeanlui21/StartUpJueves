@@ -1,0 +1,55 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white border-bottom border-success z-depth-1-half" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand> <a class="navbar-brand" href="#">
+        <img src="https://www.sensorstechforum.com/wp-content/uploads/2017/09/mongodb-secuity-attacks-image-sensorstechforum-com.png" height="30" alt="">
+    </a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link waves-light " mdbWavesEffect><mdb-icon fas icon="home"></mdb-icon>Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="globe-americas"></mdb-icon>Explorar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect><mdb-icon far icon="star"></mdb-icon>Participaciones</a>
+        </li>
+  
+        <!-- Dropdown -->
+        
+  
+      </ul>
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link">
+              <div class="btn-group" mdbDropdown>
+                  <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                      <mdb-icon fas icon="user"></mdb-icon>Usuario<span class="caret"></span></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-primary pb-0 nb-0">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="divider dropdown-divider"></div>
+                  <div class="progress mx-3">
+                      <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+                      <p  class="text-center mt-3 pb-0">Nivel</p>
+                    </div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->

@@ -1,0 +1,43 @@
+.intro-header {
+  height: unset !important;
+}
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+.verticalheight {
+  height: 100vh !important;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+@media (max-width: 790px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+    height: 700px;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.formBorder {
+  border-radius: 20px;
+}
+
+.borderHeader {
+  border-top-width: 1em;
+}
+
+input[type=file]{
+  padding:10px;
+  background:#007E33  ;
+  border-radius: 40px;
+}
