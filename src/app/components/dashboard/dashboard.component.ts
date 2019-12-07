@@ -19,6 +19,16 @@ export class DashboardComponent implements OnInit {
   }
 
   openEvento() {
-    this.modalEvento = this.modalService.show(EventoComponent)
+    this.modalEvento = this.modalService.show(EventoComponent, {
+      backdrop: true,
+      keyboard: true,
+      focus: true,
+      show: false,
+      ignoreBackdropClick: false,
+      class: 'modal-full-height modal-bottom ',
+      animated: true
+  })
   }
+
+
 }
