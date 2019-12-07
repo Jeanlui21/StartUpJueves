@@ -23,6 +23,8 @@ import { environment } from 'src/environments/environment';
 import { IngresoComponent } from './components/login/ingreso/ingreso.component';
 import { RegistroComponent } from './components/login/registro/registro.component';
 import { EventoComponent } from './components/dashboard/evento/evento.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { RecompensasComponent } from './components/recompensas/recompensas.component';
 
 
 @NgModule({
@@ -34,6 +36,8 @@ import { EventoComponent } from './components/dashboard/evento/evento.component'
     IngresoComponent,
     RegistroComponent,
     EventoComponent,
+    EventosComponent,
+    RecompensasComponent,
   ],
   imports: [
     BrowserModule,

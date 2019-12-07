@@ -32,6 +32,19 @@
   border-radius: 20px;
 }
 
+
+.formBorderMin {
+  border-radius: 15px;
+}
+
+.formBorderLeft {
+border-bottom-left-radius: 20px;
+}
+
+.formBorderRight {
+  border-bottom-right-radius: 20px;
+  }
+
 .borderHeader {
   border-top-width: 1em;
 }
@@ -40,4 +53,13 @@ input[type=file]{
   padding:10px;
   background:#007E33  ;
   border-radius: 40px;
+}
+
+.postEvento {
+  min-height: 100px;
+ 
+}
+
+.postAvatar {
+  min-height: 100%;
 }
